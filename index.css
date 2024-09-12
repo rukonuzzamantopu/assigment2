@@ -1,0 +1,212 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* variables */
+:root {
+  /* font-weight */
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+
+  --black: 900;
+
+  /* color */
+  /* red */
+  --clr-red: rgb(230, 83, 60);
+  /* white */
+  --clr-white-1: rgb(255, 255, 255);
+  --clr-white-2: rgb(250, 250, 249);
+  /* gray */
+  --clr-gray-1: rgba(255, 255, 255, 0.5);
+  --clr-gray-2: rgba(255, 255, 255, 0.277);
+  --clr-gray-3: rgba(255, 255, 255, 0.65);
+  --clr-gray-4: rgba(255, 255, 255, 0.1);
+  --clr-gray-5: rgba(48, 48, 48, 0.54);
+  --clr-gray-6: rgba(239, 237, 232, 0.65);
+  /* black */
+  --clr-black: rgb(34, 34, 34);
+}
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  outline: none;
+}
+body {
+  background-color: #000000;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.display-flex {
+  display: flex;
+}
+.p-1 {
+  color: var(--clr-gray-1);
+  font-size: 1rem;
+}
+.btn {
+  cursor: pointer;
+  color: var(--clr-white-1);
+  background-color: var(--clr-red);
+  border-radius: 2.63rem;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font: var(--semi-bold);
+  border: 1px solid var(--clr-red);
+}
+.btn-cart {
+  cursor: pointer;
+  color: var(--clr-white-1);
+  background-color: var(--clr-red);
+  font-size: 1rem;
+  padding: 0.625rem 1rem;
+  font: var(--semi-bold);
+  border: 1px solid var(--clr-red);
+}
+
+/* navbar styles starts here */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+.navbar h3 {
+  width: 10%;
+  font-size: 1.9rem;
+  font-style: italic;
+  font-weight: var(--extra-bold);
+  color: var(--clr-red);
+}
+.navbar ul {
+  width: 40%;
+  justify-content: space-between;
+}
+#special {
+  border-radius: 2rem;
+  background: var(--clr-red);
+  padding: 0.5rem 1.25rem;
+}
+.navbar > ul > li > a {
+  color: var(--clr-white-1);
+  font-size: 1rem;
+  font-weight: var(--semi-bold);
+}
+.navbar-icon {
+  display: none;
+}
+/* navbar styles ends here */
+
+/* banner styles starts here */
+.banner {
+  margin-top: 1rem;
+  align-items: center;
+  gap: 10rem;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-content h1 {
+  color: var(--clr-white-1);
+  font-size: 4.8rem;
+  font-weight: var(--black);
+  letter-spacing: 1px;
+}
+.banner-content p {
+  margin-top: 1.5rem;
+}
+#banner-special {
+  font-family: Cursive;
+  font-weight: normal;
+}
+#btn-special {
+  background-color: transparent;
+  border: 1px solid var(--clr-white-1);
+}
+.btn-container {
+  width: 100%;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+.banner-img {
+  width: 100%;
+  position: relative;
+}
+.banner-img img {
+  width: 100%;
+}
+.workout {
+  width: 51%;
+  border: 1px solid var(--clr-gray-2);
+  border-radius: 0.75rem;
+  backdrop-filter: blur(20px);
+  background: var(--clr-gray-2);
+  padding: 0.5rem 1.5rem 1rem;
+  position: absolute;
+  top: 7.825rem;
+  left: 14.375rem;
+}
+.workout-number {
+  color: var(--clr-white-1);
+  font-size: 2.5rem;
+  font-weight: var(--black);
+}
+.workout-content {
+  color: var(--clr-gray-3);
+  font-size: 0.8rem;
+}
+.video-tutorial {
+  width: 59%;
+  border: 1px solid var(--clr-gray-4);
+  border-radius: 0.75rem;
+  backdrop-filter: blur(20px);
+  background: var(--clr-gray-5);
+  align-items: center;
+  position: absolute;
+  top: 26.25rem;
+  right: 16rem;
+}
+.video-tutorial span {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  color: var(--clr-white-1);
+  background: var(--clr-red);
+  margin: 1.75rem 0.75rem 1.75rem 1.45rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.video-tutorial-number {
+  color: var(--clr-white-2);
+  font-size: 1.5rem;
+  font-weight: var(--black);
+  text-align: left;
+}
+.video-tutorial-content {
+  color: var(--clr-gray-6);
+  font-size: 1rem;
+  text-align: left;
+}
