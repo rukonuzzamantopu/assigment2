@@ -484,3 +484,56 @@ select {
   font-size: 0.875rem;
 }
 /* team styles ends here */
+
+/* footer styles starts here */
+.footer {
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 5.5rem;
+  margin-bottom: 0rem;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 4.125rem;
+  column-gap: 6.25rem;
+}
+.footer-content-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.footer-content-1 h1 {
+  color: var(--clr-red);
+  font-size: 4.38rem;
+  font-weight: var(--extra-bold);
+  font-style: italic;
+}
+.footer-content-1 p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  margin-top: 1.25rem;
+}
+.footer-get {
+  color: var(--clr-white-1);
+  font-size: 2rem;
+  font-weight: var(--bold);
+  margin-bottom: 2.45rem;
+}
+.footer-ul li {
+  margin-bottom: 1.25rem;
+}
+.footer-ul > li > a {
+  color: var(--clr-gray-1);
+  font-size: 1.45rem;
+}
+hr {
+  margin-top: 5rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.1);
+}
+.footer-p {
+  color: var(--clr-gray-1);
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-bottom: 0rem;
+  /* margin: 1.25rem 0; */
+}
