@@ -1,0 +1,59 @@
+@media screen and (max-width: 576px) {
+    /* navbar styles starts here */
+    .navbar ul {
+      display: none;
+    }
+    .navbar-icon {
+      display: block;
+      color: var(--clr-white-1);
+      font-size: 1.9rem;
+      cursor: pointer;
+    }
+    /* navbar styles ends here */
+  
+    /* banner styles starts here */
+    .banner {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .banner-content {
+      width: 100%;
+    }
+    .banner-content h1 {
+      width: 77%;
+      font-size: 2.25rem;
+    }
+    .banner-content p {
+      width: 74%;
+    }
+    .btn-container {
+      width: 100%;
+      justify-content: space-between;
+    }
+    #btn-special-1 {
+      width: 100%;
+      padding: 1rem 0.5rem;
+    }
+    #btn-special {
+      width: 100%;
+      padding: 1rem 0.5rem;
+    }
+    .workout {
+      width: 45%;
+      left: 11.75rem;
+      padding: 0.5rem 0.75rem 1rem 1rem;
+      top: 2rem;
+      display: none;
+    }
+    .workout-number {
+      font-size: 1.875rem;
+    }
+    .video-tutorial {
+      right: 9rem;
+      /* display: none; */
+      top: 15rem;
+    }
+    /* banner styles ends here */
+  
+  }
