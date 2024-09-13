@@ -256,3 +256,38 @@ a {
   text-align: center;
   margin-top: 0.375rem;
 }
+
+/* run styles starts here */
+.run {
+  margin-top: 6.25rem;
+  justify-content: space-around;
+  border-radius: 1.13rem;
+  background: var(--clr-black);
+  align-items: center;
+  padding: 2.5rem 0;
+}
+.run-content {
+  width: 38%;
+}
+.run-content h1 {
+  color: var(--clr-white-1);
+  font-size: 3rem;
+  font-weight: var(--black);
+  padding-top: 2.5rem;
+}
+.run-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  padding-top: 0.875rem;
+}
+.run-content button {
+  padding: 1rem 4rem;
+  margin-top: 2.125rem;
+}
+.run-img {
+  width: 40%;
+}
+.run-img img {
+  width: 100%;
+  border-radius: 1.13rem;
+}
