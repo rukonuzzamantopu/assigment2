@@ -383,4 +383,104 @@ select {
   grid-column-start: -3;
   grid-column-end: -1;
 }
-/* bmi-calculator styles ends here */
+
+/* online-store styles starts here */
+.online-store {
+  margin-top: 6.25rem;
+}
+.online-store h1 {
+  color: var(--clr-white-1);
+  font-size: 1.875rem;
+  font-weight: var(--black);
+  margin-bottom: 3.75rem;
+}
+.online-store-product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.25rem;
+  place-items: center;
+}
+.product-img {
+  width: 100%;
+}
+.product-img img {
+  width: 100%;
+}
+.product-info h4 {
+  font-size: 1.25rem;
+  color: var(--clr-white-1);
+  font-weight: var(--medium);
+  margin: 1.875rem 0 0.75rem;
+}
+.product-rating span {
+  color: rgb(255, 165, 52);
+  font-size: 0.875rem;
+}
+.product-info p {
+  color: var(--clr-red);
+  font-weight: var(--bold);
+  font-size: 1rem;
+  margin: 0.5rem 0 0.625rem 0;
+}
+/* online-store styles ends here */
+
+
+/* team styles starts here */
+.team {
+  margin-top: 5.5rem;
+}
+.team-content {
+  width: 57%;
+  margin-inline: auto;
+}
+.team-content h1 {
+  color: var(--clr-white-1);
+  font-size: 3rem;
+  font-weight: var(--black);
+  text-align: center;
+}
+.team-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  text-align: center;
+}
+.team-img-boss {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 2.625rem;
+  padding: 3rem 1rem;
+  border-radius: 1.125rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  place-items: center;
+  justify-content: center;
+}
+.team-img-container {
+  position: relative;
+}
+.team-img {
+  height: 272px;
+}
+.team-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.125rem;
+  filter: brightness(80%);
+  object-fit: cover;
+}
+
+.team-img-content {
+  position: absolute;
+  top: 13rem;
+  left: 1.25rem;
+}
+.team-img-content h4 {
+  color: var(--clr-white-1);
+  font-size: 1.5rem;
+  font-weight: var(--extra-bold);
+}
+.team-img-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+}
+/* team styles ends here */
