@@ -291,3 +291,96 @@ a {
   width: 100%;
   border-radius: 1.13rem;
 }
+/* bmi-calculator styles starts here */
+.bmi-calculator-title {
+  margin-top: 4.875rem;
+}
+.bmi-calculator-title-content {
+  width: 50%;
+  margin-inline: auto;
+}
+.bmi-calculator-title-content h1 {
+  color: var(--clr-white-1);
+  font-size: 3rem;
+  font-weight: var(--black);
+}
+.bmi-calculator-title-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+}
+/* bmi-calculator styles ends here */
+
+/* bmi-calculator styles starts here */
+.bmi {
+  background: rgb(34, 34, 34);
+  margin-top: 5.5rem;
+  padding: 3.25rem 0;
+}
+.bmi-calculator {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bmi-calculator-chart {
+  width: 30%;
+}
+.bmi-calculator-chart h3 {
+  color: var(--clr-white-1);
+  font-size: 1.75rem;
+  font-weight: var(--black);
+}
+.bmi-calculator-chart table {
+  border: 0.06rem solid rgb(255 255 255 / 23%);
+  margin-top: 3.25rem;
+  border-collapse: collapse;
+}
+.bmi-calculator-chart th {
+  color: var(--clr-white-1);
+  font-size: 1rem;
+  font-weight: var(--medium);
+  text-align: left;
+  padding: 1rem;
+  border: 0.06rem solid rgb(255 255 255 / 23%);
+}
+.bmi-calculator-chart td {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border: 0.06rem solid rgb(255 255 255 / 23%);
+}
+.bmi-calculator-form {
+  width: 60%;
+}
+.bmi-calculator-form h3 {
+  color: var(--clr-white-1);
+  font-size: 1.75rem;
+  font-weight: var(--black);
+}
+.bmi-calculator-form p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  margin-top: 0.875rem;
+}
+.bmi-form {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  gap: 0.75rem;
+  margin: 2.125rem 0;
+}
+.bmi-form > input,
+select {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
+.bmi-form input {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
+#activity {
+  grid-column-start: -3;
+  grid-column-end: -1;
+}
+/* bmi-calculator styles ends here */
