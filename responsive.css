@@ -56,4 +56,109 @@
     }
     /* banner styles ends here */
   
+     /* habits styles starts here */
+  .habits-img {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+  }
+  .habits-content {
+    width: 100%;
+  }
+  .habits-content h1 {
+    font-size: 2rem;
+  }
+  /* habits styles ends here */
+
+  /* run styles starts here */
+  .run {
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 3rem;
+  }
+  .run-content {
+    width: 100%;
+  }
+  .run-content h1 {
+    font-size: 2rem;
+  }
+  .run-content button {
+    width: 100%;
+    margin: 1rem 0 2rem 0;
+  }
+  .run-img {
+    width: 100%;
+  }
+  /* run styles ends here */
+
+  /* bmi-calculator-title styles starts here */
+  .bmi-calculator-title {
+    margin-top: 1.75rem;
+  }
+  .bmi-calculator-title-content {
+    width: 100%;
+  }
+  .bmi-calculator-title-content h1 {
+    font-size: 2rem;
+  }
+  /* bmi-calculator-title styles ends here */
+
+  /* bmi-calculator styles starts here */
+  .bmi {
+    margin-top: 2rem;
+    padding-top: 2.125rem;
+  }
+  .bmi-calculator {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.625rem;
+  }
+  .bmi-calculator-chart {
+    width: 100%;
+  }
+  .bmi-calculator-chart h3 {
+    font-size: 1rem;
+  }
+  .bmi-calculator-chart table {
+    margin-top: 1.45rem;
+  }
+  .bmi-calculator-form {
+    width: 100%;
+  }
+  .bmi-calculator-form h3 {
+    font-size: 1rem;
+  }
+  /* bmi-calculator styles ends here */
+
+  /* online-store styles starts here */
+  .online-store-product-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .online-store h1 {
+    text-align: center;
+  }
+  /* online-store styles ends here */
+
+  /* team styles starts here */
+  .team-content {
+    width: 100%;
+  }
+  .team-img-boss {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 2rem;
+  }
+  /* team styles ends here */
+
+  /* footer styles starts here */
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+  }
+  .footer-content-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  /* footer styles ends here */
+
+
   }
