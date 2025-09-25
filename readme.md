@@ -37,8 +37,6 @@ To get a local copy up and running, follow these steps:
 1. Clone this repository:
 ```bash
 https://github.com/rukonuzzamantopu/assigment2
-    ```
-2. Open the project folder in your preferred code editor (e.g., Visual Studio Code).
-3. Open `index.html` in your browser to view the website locally.
+
 
 
