@@ -35,7 +35,7 @@ This is a fitness website built with HTML, CSS, and a responsive layout designed
 To get a local copy up and running, follow these steps:
 
 1. Clone this repository:
-    ```bash
+```bash
 https://github.com/rukonuzzamantopu/assigment2
     ```
 2. Open the project folder in your preferred code editor (e.g., Visual Studio Code).
